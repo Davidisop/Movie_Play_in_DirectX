@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{60b83edf-9cae-473d-b704-740cd2d44d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{3948266d-0f5a-4e69-92ce-27482f402884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{263cac2a-1c17-4172-91c2-3fd3bd5843dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{4ca568e9-3d9b-4de5-b35f-b13fd9bb51b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EFX">
+      <UniqueIdentifier>{6b465bf9-eaa7-44e2-94ce-84b30a27b9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Processing">
+      <UniqueIdentifier>{a619279d-e86e-4651-b48f-f5a08474081f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MousePicking">
+      <UniqueIdentifier>{7cee2539-b985-4abd-8c2e-23b899444f40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="xCore.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xDevice.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xDxWrite.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xInput.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Canon_Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="David_Obj_Compo_Func.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="David_Line_Shape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="David_Plane_Shape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="David_Shape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="David_Box_Shape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="David_State.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="David_SphereShape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Da_Sky_Box_Shape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>EFX</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>EFX</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite_Manager.cpp">
+      <Filter>EFX</Filter>
+    </ClCompile>
+    <ClCompile Include="sample.cpp">
+      <Filter>Processing</Filter>
+    </ClCompile>
+    <ClCompile Include="David_Timer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Select.cpp">
+      <Filter>MousePicking</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xCore.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="xDevice.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="xDxWrite.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="xInput.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="xObjectStd.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="xStd.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="xWindow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Canon_Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="David_Obj_Compo_Func.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="David_Shape.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="David_State.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>EFX</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>EFX</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite_Manager.h">
+      <Filter>EFX</Filter>
+    </ClInclude>
+    <ClInclude Include="sample.h">
+      <Filter>Processing</Filter>
+    </ClInclude>
+    <ClInclude Include="David_Timer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Select.h">
+      <Filter>MousePicking</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
